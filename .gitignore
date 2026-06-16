@@ -1,0 +1,71 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+*.env
+
+# USDA API key or local secrets
+secrets/
+config.local.*
+
+# Raw or large datasets
+data/epi_r.csv
+data/*.zip
+data/*.tar
+data/*.gz
+data/raw/
+data/external/
+
+# Keep processed data required by the app
+!data/README.md
+!data/ingredient_nutrition_daily_values.csv
+!data/similar_recipes.csv
+
+# Model artifacts required by the app
+!models/README.md
+!models/best_rating_label_model.joblib
+!models/feature_columns.joblib
+
+# Other generated model formats
+models/*.pkl
+models/*.pickle
+models/*.sav
+
+# Generated outputs
+outputs/
+reports/generated/
+*.log
+
+# Test and coverage artifacts
+.pytest_cache/
+.pytest_tmp/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
