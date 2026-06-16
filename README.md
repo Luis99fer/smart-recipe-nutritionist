@@ -115,50 +115,6 @@ Breakfast / lunch / dinner selection
 Formatted daily menu
 ```
 
-## Repository Structure
-
-```text
-smart-recipe-nutritionist/
-│
-├── README.md
-├── .gitignore
-├── requirements.txt
-├── LICENSE
-│
-├── assets/
-│   ├── project_banner.png
-│   ├── pipeline_diagram.png
-│   └── app_architecture.png
-│
-├── src/
-│   ├── nutritionist.py
-│   └── recipes.py
-│
-├── notebooks/
-│   └── recipes.ipynb
-│
-├── data/
-│   ├── README.md
-│   ├── ingredient_nutrition_daily_values.csv
-│   └── similar_recipes.csv
-│
-├── models/
-│   ├── README.md
-│   ├── best_rating_label_model.joblib
-│   └── feature_columns.joblib
-│
-├── tests/
-│   └── test_recipes.py
-│
-├── docs/
-│   ├── project_overview.md
-│   ├── model_pipeline.md
-│   └── usage_guide.md
-│
-└── reports/
-    └── analysis_summary.md
-```
-
 ## Required Data and Models
 
 To run the application, the following files are required:
